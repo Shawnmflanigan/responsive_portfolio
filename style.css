@@ -1,6 +1,15 @@
 body {
     background-color: darkgray;
+    background: url('https://images.unsplash.com/photo-1515446134809-993c501ca304?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80') no-repeat center center fixed; -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ }
+
+.navbar {
+    text-align: right; 
 }
+
 
 .card-header {
     font-size: xx-large;
