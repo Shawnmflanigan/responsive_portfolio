@@ -24,13 +24,13 @@ This is my intial portfolio which meets, but is not limited to, the following cr
 ## Portfolio Page
 ![Portfolio Page](./assets/responive_portfolio_portfolio.png)
 ## Contact Page
-![Contact Page](./assets/responive_portfolio_contact.png)
+![Contact Page](./assets/responsive_portfolio_contact.png)
 ## Technologies
 This project is created with:
 - [HTML](https://html.com/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Bootstrap](https://getbootstrap.com/)
-- [Javascript] (https://www.javascript.com/)
+- [Javascript](https://www.javascript.com/)
 ## Summary
 - This project is my own initial portfolio. I received help with my readme from Joshua Azzam Rehanek
 ## Author
