@@ -1,4 +1,4 @@
-# # My Portfolio
+
 # The portfolio for Shawn Flanigan
 ## Table of contents
 - [General Info](#general-info)
