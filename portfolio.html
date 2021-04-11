@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,119 +10,143 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!--Nav Bar Links-->
+    <!--Nav Bar Links-->
     <!--Left Nav-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Shawn Flanigan</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        
-    <!--Right Nav-->
+
+        <!--Right Nav-->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-            
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li> -->
 
                 <li class="nav-item">
                     <a class="nav-link active" href="./portfolio.html">Portfolio</a>
                 </li>
-            
+
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
-           </ul>
+            </ul>
         </div>
     </nav>
 
     <!--Main Container-->
-   <div class="container margin-left">
-        
+    <div class="container margin-left">
+
         <div class="card" style="width: 75%; margin-top: 5rem; margin-left: 2rem;">
             <div class="card-header">Portfolio</div>
-            
+
             <div class="card-body">
                 <div class="row" style="margin-bottom: 2rem;">
                     <div class="col-md-6" style="margin-left: auto; ">
-                        <p>Mad Libz</p>
-                        <img src="./assets/launchPage.jpg" class="img-fluid" alt="">
+                        <h3>Mad Libz</h3>
+                        <img src="./assets/renderStory.png" class="img-fluid" alt="">
+                        <p>A responsive word game using server side APIs, client stide storage, and Bulma CSS framework
+                        </p>
                         <a href="https://teammadlibz.github.io/MadLibz/userInput.html">
                             <i class="fas fa-globe fa-lg"></i>
 
                         </a>
                         <a href="https://github.com/TeamMadLibz/MadLibz">
                             <i class="fab fa-github fa-lg"></i>
-                        </a> 
+                        </a>
                     </div>
                     <div class="col-md-6" style="margin-left: auto; ">
-                        <p>Castaway Flight of the Pheonix</p>
-                        <img src="./assets/renderStory.png" class="img-fluid" alt="">
+                        <h3>Castaway</h3>
+                        <img src="./assets/castawayDemo.gif" class="img-fluid" alt="">
+                        A RESTful application which allows the user to play a classic style choose-your-own adventure
+                        which uses a persistant MySQL database, Handlebars.js and a Node/Express server.
                         <a href="https://cyoa-rpg.herokuapp.com/">
                             <i class="fas fa-globe fa-lg"></i>
 
                         </a>
                         <a href="https://github.com/Shawnmflanigan/CYOA">
                             <i class="fab fa-github fa-lg"></i>
-                        </a>    
+                        </a>
 
                     </div>
                 </div>
 
                 <div class="row" style="margin-bottom: 2rem;">
                     <div class="col-md-6" style="margin-left: auto mx-auto">
-                        <p>Wimpy's Burger Platter</p>
-                        <img src="./assets/screencapture-wimpys-herokuapp-2021-02-20-08_38_47.png"  class="img-fluid" alt="">
+                        <h3>Wimpy's Burger Platter</h3>
+                        <img src="./assets/screencapture-wimpys-herokuapp-2021-02-20-08_38_47.png" class="img-fluid"
+                            alt="">
+                        <p>An MVC designed application using MySQL, Node, Handlebars.js, and Express which allows the
+                            user to create and eat different burgers</p>
                         <a href="https://wimpys.herokuapp.com/">
                             <i class="fas fa-globe fa-lg"></i>
 
                         </a>
                         <a href="https://github.com/Shawnmflanigan/welcome_to_wimpys">
                             <i class="fab fa-github fa-lg"></i>
-                        </a>    
+                        </a>
 
 
                     </div>
                     <div class="col-md-6" style="margin-left: auto; ">
-                        <p>Exercise Tracker</p>
+                        <h3>Exercise Tracker</h3>
                         <img src="./assets/demo.gif" class="img-fluid" alt="">
+                        <p>A NoSQL application using MongoDB and express servers which allows the user to track their
+                            workouts over time</p>
                         <a href="https://stormy-sea-50426.herokuapp.com/?id=605669af1772880015bd3a30">
                             <i class="fas fa-globe fa-lg"></i>
 
                         </a>
                         <a href="https://github.com/Shawnmflanigan/exerciseapp">
                             <i class="fab fa-github fa-lg"></i>
-                        </a>    
+                        </a>
                     </div>
                 </div>
 
-                <!-- <div class="row" style="margin-bottom: 2 rem;">
+                <div class="row" style="margin-bottom: 2 rem;">
                     <div class="col-md-6" style="margin-left: auto; ">
-                        <p>Exercise Tracker</p>
-                        <img src="/assets/demo.gif" class="img-fluid" alt="">
-                        <a href="https://cyoa-rpg.herokuapp.com/">
+                        <h3>Expense Tracker</h3>
+                        <img src="./assets/expense.png" class="img-fluid" alt="">
+                        <p>This application uses service worker to allow the user to track their budget over time both
+                            online and offline.</p>
+                        <a href="https://stark-island-01770.herokuapp.com">
                             <i class="fas fa-globe fa-lg"></i>
 
                         </a>
-                        <a href="https://github.com/Shawnmflanigan/exerciseapp">
+                        <a href="https://github.com/Shawnmflanigan/expenseTracker">
                             <i class="fab fa-github fa-lg"></i>
-                        </a>    
+                        </a>
                     </div>
-                </div> -->
-                
-                
+                    <div class="col-md-6" style="margin-left: auto; ">
+                        <h3>Employee Generator</h3>
+                        <img src="./assets/fullpage-1.png" class="img-fluid" alt="">
+                        <p>This application uses node, javascript, fs, and inquirer to allow the user to generate html from the command line so that the user can easily view each member of their team on a webpage.</p>
+                        <a href="https://github.com/Shawnmflanigan/employeeApp">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
 
     <!--Javascript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
